@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 
-@CrossOrigin(origins = {"http://localhost:5173", "https://courses-front-end.vercel.app"})
+@CrossOrigin(origins = ["http://localhost:5173", "https://courses-front-end.vercel.app"])
 @RestController
 @RequestMapping("/api/courses")
 class CourseController{
