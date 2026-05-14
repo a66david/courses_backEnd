@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"http://localhost:5173", "https://courses-front-end.vercel.app"})
 @RestController
 @RequestMapping("/api/users")
 class UserController {
